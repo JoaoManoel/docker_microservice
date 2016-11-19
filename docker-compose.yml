@@ -1,0 +1,18 @@
+version: '2'
+services:
+  api:
+    build: ./api/
+    ports:
+     - "2003:2003"
+    links:
+     - messsagebroker
+    depends_on:
+      - messsagebroker
+  payment:
+    build: ./payment/
+    links:
+      - messsagebroker
+    depends_on:
+      - messsagebroker
+  messsagebroker:
+    image: rabbitmq:3.6.5

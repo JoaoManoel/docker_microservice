@@ -1,0 +1,17 @@
+{
+  "name": "docker_microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/JoaoManoel/docker_microservice.git",
+    "type": "git"
+  },
+  "author": "Joao Manoel <joaomanoellins@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "helmet": "^3.1.0"
+  }
+}
