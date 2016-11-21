@@ -1,9 +1,9 @@
 const assert = require('assert');
 
-describe('Testing', () => {
-  describe('200', () => {
-    it('should return true', () => {
+describe('Testing', function() {
+  describe('200', function() {
+    it('should return true', function() {
       assert.ok(true);
     });
-  })
-})
+  });
+});
