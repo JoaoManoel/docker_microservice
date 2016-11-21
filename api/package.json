@@ -2,6 +2,9 @@
   "name": "docker_microservice",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "url": "https://github.com/JoaoManoel/docker_microservice.git",
     "type": "git"

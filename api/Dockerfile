@@ -4,6 +4,7 @@ MAINTAINER Joao Manoel Lins
 RUN mkdir /home/api
 
 COPY app.js /home/api
+COPY test.js /home/api
 COPY package.json /home/api
 COPY yarn.lock /home/api
 
